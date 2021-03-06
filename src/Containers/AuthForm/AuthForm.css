@@ -1,0 +1,30 @@
+.AuthForm {
+    margin: 170px auto;
+    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.AuthForm form {
+    margin: 20px;
+}
+
+@media (min-width: 500px) {
+    .AuthForm {
+        margin: 20px auto;
+        padding: 40px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 900px) {
+    .AuthForm {
+        margin: 20px auto;
+        padding: 40px;
+        width: 800px;
+    }
+}
+
+.Error {
+    color: red;
+}

@@ -1,0 +1,40 @@
+.OrderSummary {
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.OrderSummary .OrderTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    border-bottom: 1px solid #131212;
+    width: 87%;
+    font-weight: bold;
+}
+
+.OrderSummary .OrderList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+}
+
+.OrderSummary .OrderList span {
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 90px;
+}
+
+.OrderSummary .OrderList p {
+    margin: 0;
+    width: 80px;
+}
+
+.P {
+    margin: 5px;
+}

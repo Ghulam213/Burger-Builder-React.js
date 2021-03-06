@@ -1,0 +1,50 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    transition: background-color 0.3 ease-out;
+}
+
+.Button:disabled {
+    color: #bbb;
+    cursor: not-allowed;
+    border: 1px solid #bbb;
+
+}
+
+.Button:disabled:hover {
+    background-color:  #bbb;
+    transform: translateY();
+    color: white;
+    font-weight: normal;
+}
+
+.Success {
+    color: #5C9210;
+    border: 1px solid #5C9210;
+}
+
+.Danger {
+    color: #944317;
+    border: 1px solid #944317;
+}
+
+.Success:hover {
+    background-color:  #5C9210;
+    transform: translateY();
+    color: white;
+    font-weight: normal;
+}
+
+.Danger:hover {
+    background-color:  #944317;
+    transform: translateY();
+    color: white;
+    font-weight: normal;
+}
